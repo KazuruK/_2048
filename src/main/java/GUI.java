@@ -17,7 +17,7 @@ public class GUI extends JFrame{
     private JButton[] cells;
 
     private Logic controller = new Logic();
-
+//
     public GUI() {
         boardPanel = new JPanel(new GridLayout(4, 4));
         boardPanel.setPreferredSize(new Dimension(500, 500));
